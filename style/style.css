@@ -1,0 +1,46 @@
+/* reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o menu */
+.menu {
+    text-align: center;
+    background-color: #9f7bbd;
+    padding: 20px 0;
+    border-bottom: 3px solid #333;
+}
+
+/* Estilo para o logotipo */
+.logotipo {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 90px;
+    margin-top: -1.8% ;
+    float: inline-start;
+}
+
+/* Estilo para os itens do menu */
+.menu-item {
+    display: inline-block;
+    margin: 0 20px;
+    color: #fff;
+}
+
+/* Estilo para os links do menu */
+.menu-item a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* Estilo para os links do menu quando passar o mouse por cima */
+.menu-item:houver a {
+    background-color: #333;
+}
+
+.menu-item:houver a {
+    color: #f00;
+}
